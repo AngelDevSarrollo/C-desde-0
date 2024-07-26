@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+/*
+Tipos de datos basicos en C
+*/
+
+int main() {
+	// Tipo entero (formato %d, %i)
+	int entero = 10;
+	printf("Tipo entero: %i", entero);
+	
+	// Tipo Flotante (formato %f)
+	float flotante = 3800.5;
+	printf("\nTipo flotante: %1.2f", flotante);
+	
+	// Tipo double (formato %lf -> long float)
+	double doble = 15.4;
+	printf("\nTipo doble: %.2lf", doble);
+	
+	// Tipo char (formato %c)
+	char caracter = 'A';
+	printf("\nTipo caracter: %c", caracter);
+	printf("\nValor decimal caracter: %d", caracter);
+	char caracterDecimal = 65;
+	printf("\nTipo caracter decimal: %c", caracterDecimal);
+	
+	// Tipo bool (valores: true - 1 o false - 0)
+	bool logico = true;
+	printf("\nTipo logico: %d", logico);
+	
+	// Un arreglo es un conjunto de datos
+	// se encuentran ubicados de forma consecutiva en la memoria
+	
+	// Tipo cadena (formato %s -> string)
+	char cadena[] = "Hola";
+	printf("\nTipo cadena: %s", cadena);
+	
+	// Tipo cadena (otra sintaxis)
+	char cadena2[10] = "Saludos";
+	printf("\nTipo cadena2: %s", cadena2);
+	
+	return 0;
+}
