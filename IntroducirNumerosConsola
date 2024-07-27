@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	// Ejemplo para solicitar informacion al usuario
+	int miNumero;
+	printf("Proporciona un numero: ");
+	// leemos informacion del usario
+	scanf("%d", &miNumero);
+	
+	// imprimimos el valor propocionado
+	printf("\nEl numero proporcionado es: %d", miNumero );
+	
+	return 0;
+}
+
