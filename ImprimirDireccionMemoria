@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/*
+Direccion de Memoria en C (apuntadores)
+*/
+
+int main() {
+	// Declarar una variable
+	int miNumero = 10;
+	printf("Imprimir el valor de la variable: %d", miNumero);
+	// Imprimimos la direccion de memoria
+	printf("\nImprimir la direccion memoria: %p", &miNumero);
+	
+	
+	
+	return 0;
+}
+
