@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	// Ejemplo para solicitar informacion al usuario
+	int tamanioCadena = 10;
+	char nombre[tamanioCadena];
+	printf("Proporciona un nombre: ");
+	// leemos informacion del usario
+	//scanf("%[^'\n']s", nombre);
+	//fgets(nombre, tamanioCadena, stdin);//standard input
+	gets(nombre);
+	
+	// imprimimos el valor propocionado
+	printf("\nEl nombre proporcionado es: %s", nombre );
+	
+	return 0;
+}
+
